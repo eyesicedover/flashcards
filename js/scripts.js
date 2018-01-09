@@ -1,31 +1,50 @@
 $(document).ready(function() {
-  $("#jsDef").click(function() {
-    $(".clickable").removeClass();
-    $("#jsDef").toggleClass("defFlip");
+  $("#jsDef-show").click(function() {
+    $("#jsDef-hide").toggle();
   });
 
-  $("#operatorDef").click(function() {
-    $(".clickable").removeClass();
-    $("#operatorDef").toggleClass("defFlip");
+  $("#opDef-show").click(function() {
+    $("#opDef-hide").toggle();
+  });
+
+  $("#variablesDef-show").click(function() {
+    $("#variablesDef-hide").toggle();
+  });
+
+  $("#namingDef-show").click(function() {
+    $("#namingDef-hide").toggle();
+  });
+
+  $("#functionsDef-show").click(function() {
+    $("#functionsDef-hide").toggle();
+  });
+
+  $("#methodsDef-show").click(function() {
+    $("#methodsDef-hide").toggle();
+  });
+
+  $("#argDef-show").click(function() {
+    $("#argDef-hide").toggle();
+  });
+
+  $("#paraDef-show").click(function() {
+    $("#paraDef-hide").toggle();
  });
 
-  $("#variablesDef").click(function() {
-    $(".clickable").removeClass();
-    $("#variablesDef").toggleClass("defFlip");
+  $("#retDef-show").click(function() {
+    $("#retDef-hide").toggle();
   });
 
-  $("namingDef").click(function() {
-    $(".clickable").removeClass();
-    $("namingDef").toggleClass("defFlip");
+  $("#chaDef-show").click(function() {
+    $("#chaDef-hide").toggle();
   });
 
-  $("#functionsDef").click(function() {
-    $(".clickable").removeClass();
-    $("functionsDef").toggleClass("defFlip");
+  $("#strDef-show").click(function() {
+    $("#strDef-hide").toggle();
   });
 
-  $("#methodsDef").click(function() {
-    $(".clickable").removeClass();
-    $("#methodsDef").toggleClass("defFlip");
+  $("#booDef-show").click(function() {
+    $("#booDef-hide").toggle();
   });
+
 });
